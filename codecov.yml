@@ -1,0 +1,10 @@
+ignore:
+  - "test/.*"
+  - "setup.py"
+  - .venv/
+  - .tox/
+
+coverage:
+  status:
+    project: off
+    patch: off
