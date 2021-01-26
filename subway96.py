@@ -4,6 +4,7 @@
 import os
 import requests
 import time
+
 from underground import metadata, SubwayFeed
 
 # Grab API Key from Env file
@@ -11,8 +12,10 @@ from underground import metadata, SubwayFeed
 
 # Example of SubwayFeed command
 # URL = 'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs'
+# Route = '2'
 # feed = SubwayFeed.get(URL)
-
+# OR
+# feed = SubwayFeed.get(ROUTE)
 
 ROUTE1 = '1'
 ROUTE2 = '2'
