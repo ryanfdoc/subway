@@ -9,7 +9,7 @@ from underground import metadata, SubwayFeed
 # Grab API Key from Env file
 # API_KEY = os.getenv('MTA_API_KEY')
 
-# Exaple of SubwayFeed command
+# Example of SubwayFeed command
 # URL = 'https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs'
 # feed = SubwayFeed.get(URL)
 
