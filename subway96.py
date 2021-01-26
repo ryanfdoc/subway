@@ -1,4 +1,3 @@
-
 # Python Script to Print Next Trains Stopping at 96th Street
 
 import os
