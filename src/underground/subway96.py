@@ -18,10 +18,9 @@ from underground import metadata, SubwayFeed
 # feed = SubwayFeed.get(ROUTE)
 
 ROUTE = '1'
+feed = SubwayFeed.get(ROUTE,api_key='pRNmvpGMmR9lFcp82OIty307RJzAUkFn4seMMYHe')
 
-FEED = underground.SubwayFeed(ROUTE,api_key='pRNmvpGMmR9lFcp82OIty307RJzAUkFn4seMMYHe')
 
-
-Feed_ext1 = FEED.extract_stop_dict()
+feed.extract_stop_dict()
 
 # Hopefully this prints
