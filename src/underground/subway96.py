@@ -17,16 +17,11 @@ from underground import metadata, SubwayFeed
 # OR
 # feed = SubwayFeed.get(ROUTE)
 
-ROUTE1 = '1'
-ROUTE2 = '2'
-ROUTE3 = '3'
+ROUTE = '1'
 
-Feed1 = underground.SubwayFeed(ROUTE1,api_key='pRNmvpGMmR9lFcp82OIty307RJzAUkFn4seMMYHe')
-Feed2 = underground.SubwayFeed(ROUTE2,api_key='pRNmvpGMmR9lFcp82OIty307RJzAUkFn4seMMYHe')
-Feed3 = underground.SubwayFeed(ROUTE3,api_key='pRNmvpGMmR9lFcp82OIty307RJzAUkFn4seMMYHe')
+FEED = underground.SubwayFeed(ROUTE,api_key='pRNmvpGMmR9lFcp82OIty307RJzAUkFn4seMMYHe')
 
-Feed_ext1 = Feed1.extract_stop_dict()
-Feed_ext2 = Feed2.extract_stop_dict()
-Feed_ext3 = Feed3.extract_stop_dict()
+
+Feed_ext1 = FEED.extract_stop_dict()
 
 # Hopefully this prints
