@@ -21,6 +21,6 @@ ROUTE = '1'
 feed = SubwayFeed.get(ROUTE,api_key='pRNmvpGMmR9lFcp82OIty307RJzAUkFn4seMMYHe')
 
 print("Really Hope this Works. WAR EAGLE")
-pprint.pprint(feed.extract_stop_dict())
+print(feed.extract_stop_dict())
 
 # Hopefully this prints
